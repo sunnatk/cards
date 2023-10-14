@@ -1,0 +1,103 @@
+body {
+  font-family: "Oswald", sans-serif;
+  font-family: "Pacifico", cursive;
+  font-family: "Rubik", sans-serif;
+  font-family: "Sofia Sans Condensed", sans-serif;
+  background-color: #fbf8ec;
+  
+}
+
+.container {
+  max-width: 1208px;
+  margin: 0 auto;
+  
+}
+
+.cards {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
+  flex-wrap: wrap;
+
+}
+
+.element {
+  color: var(--main-on-surface, #414141);
+  font-family: Rubik;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.card {
+  max-width: 376px;
+}
+
+.time {
+  padding: 10px;
+  color: var(--grayscale-hard, #8f8f8f);
+  font-family: Rubik;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.text-padding {
+  padding: 10px;
+   padding-left: 10px;
+  margin-top: 10px;
+  color: var(--main-on-surface, #414141);
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 150%;
+  /* card 2 */
+  padding-left: 10px;
+  margin-top: 10px;
+  color: var(--main-on-surface, #414141);
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.button {
+  padding: 8px;
+  width: 150px;
+  height: 40px;
+  color: var(--main-secondary, #70c05b);
+  text-align: center;
+  border-radius: 6px;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  border: none;
+  background-color: #E5FFDE;
+  
+}
+.indentation {
+  color: var(--main-secondary, #ffffff);
+  text-align: center;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  padding: 8px;
+  width: 150px;
+  height: 40px;
+  margin-top: 25px;
+  background: var(--main-secondary, #70c05b);
+  border-radius: 6px;
+  border: none;
+    
+}
+
+.bg-color {
+  background-color: #fff;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
